@@ -3,7 +3,7 @@ let name:string = 'Max';
 let toggle:boolean = true;
 let empty:null = null;
 let notInitialize:undefined = undefined;
-let callback = (a: number) => { return 100 + a };
+let callback = (a: number):number => { return 100 + a };
 
 let anything:any = -20;
 anything = 'Text';
@@ -27,7 +27,7 @@ enum Status{
 
 let loader = Status.Loading
 
-function showMessage(message:string) {
+function showMessage(message:string):string {
  return message
 }
 
@@ -43,7 +43,7 @@ interface Tpage1 {
     title: string,
     views: number,
     accounts: string[],
-    status: string,
+    status: Status,
     details: {
         createAt: Date;
         updateAt: Date;
@@ -53,7 +53,7 @@ const Page1: Tpage1 = {
     title: "Сторінка",
     views: 426,
     accounts: ['Acc1', 'Acc2', 'Acc3'],
-    status: "open",
+    status: Status.Ready,
     details: {
    createAt: new Date('2021-01-01'),
    updateAt: new Date('2021-05-01'),
