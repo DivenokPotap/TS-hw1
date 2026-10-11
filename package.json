@@ -1,0 +1,22 @@
+{
+  "name": "typescript-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DivenokPotap/TS-hw1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DivenokPotap/TS-hw1/issues"
+  },
+  "homepage": "https://github.com/DivenokPotap/TS-hw1"
+}
